@@ -8,3 +8,7 @@ This is just a proof of concept.
 2. run `bundle install`
 3. run `rake`
 4. open [http://0.0.0.0:8888](http://0.0.0.0:8888)
+
+--
+
+Based on https://github.com/elabs/mobile-websocket-example
