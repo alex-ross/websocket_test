@@ -1,6 +1,6 @@
 angular.module("app", [])
 
-.controller("ChatCtrl", function($scope, $timeout, Message) {
+.controller("ChatCtrl", ["$scope", "$timeout", "Message", function($scope, $timeout, Message) {
   "use strict";
   $scope.messages = [];
   $scope.newMessage = "";
@@ -26,7 +26,7 @@ angular.module("app", [])
     ws.send($scope.newMessage);
     $scope.newMessage = "";
   };
-})
+}])
 
 .factory("Message", function() {
   var Message = function(text) {

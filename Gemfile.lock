@@ -5,10 +5,16 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.5.3)
     eventmachine (1.0.3)
+    execjs (2.2.0)
     http_parser.rb (0.5.3)
+    json (1.8.1)
+    uglifier (2.5.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   em-websocket
+  uglifier
